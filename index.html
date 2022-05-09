@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/sohe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Sam Cafe</title>
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+    <!-- <div id="preloader">
+        Loader...
+    </div> -->
+    <nav class='navbar navbar-expand-lg fixed-top '>
+        <div class='container  py-1 py-lg-3 '>
+            <!-- <a data-cursor="pointer" class='navbar-brand ' href='#'> <img class="logo" src='./assets/img/sohel_logo.png' alt='logo'> </a>  -->
+            <a data-cursor="pointer" class='navbar-brand  d-lg-none ' href='#'> <img class="logo" src='./assets/img/sohel_logo.png' alt='logo'> </a> <button class='btn navbar-toggler border-3 px-2' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'> <div class="hamburger"> <div></div> <div></div> <div></div> </div> </button>
+            <div class='offcanvas offcanvas-start-lg ' tabindex='-1' id='offcanvasExample' aria-labelledby='offcanvasExampleLabel'>
+                <div class='offcanvas-header d-flex d-lg-none'>
+                    <h5 class='offcanvas-title' id='offcanvasExampleLabel'>
+                        <a data-cursor="pointer" class='navbar-brand ' href='#'> <img class="logo" src='./assets/img/sohel_logo.png' alt='logo'> </a>
+                    </h5>
+                    <a data-cursor="pointer" href='javascript:void(0) ' class='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'> <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='#000' class='bi bi-x-circle' viewBox='0 0 16 16'> <path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z' /> <path d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' /> </svg>                        </a>
+                </div>
+                <div class='offcanvas-body d-lg-flex justify-content-lg-between p-lg-0'>
+                    <a data-cursor="pointer" class='navbar-brand d-none d-lg-block ' href='#'> <img class="logo" src='./assets/img/sohel_logo.png' alt='logo'> </a>
+                    <ul class='navbar-nav  align-items-center justify-content-end links_menu'>
+                        <li class='nav-item'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'>Home</a> </li>
+                        <li class='nav-item'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'>About</a> </li>
+                        <li class='nav-item'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'>Blog</a> </li>
+                        <li class='nav-item'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'>Gallery</a> </li>
+                        <li class='nav-item'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'>Contact</a> </li>
+                    </ul>
+                    <ul class='navbar-nav  align-items-center justify-content-end d-flex flex-row justify-content-center'>
+                        <li class='nav-item me-3 me-lg-auto'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'><i class="fa-solid fa-magnifying-glass"></i></a> </li>
+                        <li class='nav-item me-3 me-lg-auto'> <a data-cursor="pointer" class='nav-link ' aria-current='page' href='#'><i class="fa-solid fa-user"></i></a> </li>
+                        <li class='nav-item me-3 me-lg-auto'> <a data-cursor="pointer" class='nav-link position-relative ' aria-current='page' href='#'><i class="fa-solid fa-cart-shopping"></i>  <span class="position-absolute   start-100 navbar_badge  badge rounded-pill  ">
+                           0
+                            <span class="visually-hidden">unread messages</span>
+                          </span></a> </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="main_banner ">
+        <img class="logos_brand_leave" src="./assets/img/brand_leave.png" alt="">
+
+        <div class="container h-lg-100">
+            <div class="row h-lg-100">
+                <div class="col-lg-6 h-lg-100 d-flex flex-column mb-4 mb-lg-0 justify-content-center align-items-lg-start text-center text-lg-start ">
+                    <div class="banner_content text-center text-lg-start  ">
+                        <h1>Yogurt</h1>
+                    </div>
+                    <p class="py-3 py-lg-4">
+                        Yogurt also spelled yoghurt, yogourt or yoghourt, is a food produced by bacterial fermentation of milk. The bacteria used to make yogurt are known as yogurt cultures.
+                    </p>
+                    <div class="d-flex justify-content-center align-items-lg-start ">
+                        <a href="#!" class="cust_btn me-4">Buy Now</a>
+                        <a href="#!" class="cust_btn_border">Explore More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 h-lg-100 d-flex mb-4 mb-lg-0 align-items-lg-center ">
+                    <img src="./assets/img/banner.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 logos_brand_leave_box">
+                    <img class="logos_brand_leave" src="./assets/img/brand_leave.png" alt="">
+                    <div class="py-4 d-flex flex-wrap justify-content-around logos_brand">
+
+                        <img class="me-3 mt-2 mt-lg-0" src="./assets/img/microsoft.svg" alt="">
+                        <img class="me-3 mt-2 mt-lg-0" src="./assets/img/airbnb.svg" alt="">
+                        <img class="me-3 mt-2 mt-lg-0" src="./assets/img/cisco-2.svg" alt="">
+                        <img class="me-3 mt-2 mt-lg-0" src="./assets/img/ebay.svg" alt="">
+                        <img class="me-3 mt-2 mt-lg-0" src="./assets/img/uber-2.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="round_img_box border_bottom">
+                        <img class="img-fluid" src="./assets/img/about_1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="sec_head mb-3 mb-md-4">Best Peach <br> Yogurt</h2>
+                    <p class="mb-3 mb-md-4">Peaches are related to plums, apricots, cherries, and almonds. They’re considered drupes or stone fruit because their flesh surrounds a shell that houses an edible seed. They can be eaten on their own or added to a variety of dishes.
+                        What’s more, peaches are nutritious and may offer an array of health benefits, including improved digestion, smoother skin, and allergy relief.</p>
+                    <div class="d-flex">
+                        <a href="#!" class="cust_btn me-4">Buy Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stomach_sec">
+        <img src="./assets/img/leav_2.png" class="leave_1" alt="">
+        <img src="./assets/img/leave_3.png" class="leave_2" alt="">
+        <div class="blur_effect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <h2 class="sec_head mb-3 mb-md-4">Good For you <br> Stomach.</h2>
+                        <p class="mb-3 mb-md-4">Yogurt contains some of nearly every nutrient that your body needs. It’s known for containing a lot of calcium, a mineral necessary for healthy teeth and bones. Just one cup provides 49% of your daily calcium needs (1, 2). It’s
+                            also high in B vitamins, particularly vitamin B12 and riboflavin, both of which may protect against heart disease and certain neural tube birth defects (2, 3, 4).</p>
+                        <div class="d-flex">
+                            <a href="#!" class="cust_btn me-4">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="round_img_box border_right">
+                            <img class="img-fluid" src="./assets/img/about_2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="round_img_box border_bottom">
+                        <img class="img-fluid" src="./assets/img/about_3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="sec_head mb-3 mb-md-4">Best Peach <br> Yogurt</h2>
+                    <p class="mb-3 mb-md-4">Peaches are related to plums, apricots, cherries, and almonds. They’re considered drupes or stone fruit because their flesh surrounds a shell that houses an edible seed. They can be eaten on their own or added to a variety of dishes.
+                        What’s more, peaches are nutritious and may offer an array of health benefits, including improved digestion, smoother skin, and allergy relief.</p>
+                    <div class="d-flex">
+                        <a href="#!" class="cust_btn me-4">Buy Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 order-2 order-lg-1 col-lg-3 mt-4 mt-lg-0 page_link">
+                        <h4 class="mb-2 mb-lg-4 text-white ">CONTACT INFO</h4>
+                        <ul class="p-0">
+                            <li class="mb-2">
+                                <p class="d-flex text-white align-items-center"><i class="fa-solid fa-location-dot me-2"></i> New York, NY 10012, US</p>
+                            </li>
+                            <li class="mb-2"> <a data-cursor="pointer" href="tel;+911234567890" class="d-flex text-white align-items-center"><i class="fa-solid fa-phone me-2"></i>+91 12345 67890</a> </li>
+                            <li class="mb-2"> <a data-cursor="pointer" href="tel;+911234567890" class="d-flex text-white align-items-center"><i class="fa-solid fa-envelope me-2"></i>sohelmalek03@gmail.com</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 col-lg-6">
+                        <div class="text-center">
+                            <a data-cursor="pointer" href="index.html"><img class="logo" src="./assets/img/sohel_logo.png" alt=""></a>
+                            <p class="text-white my-3 my-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget imperdiet egestas eget bibendum accumsan.</p>
+                            <div class="row d-flex justify-content-center">
+                                <div class="form-outline subscribe_form form-white mb-4 d-flex"> <input type="email" placeholder="Email" class="form-control"> <button type="submit" class=" "> Subscribe </button> </div>
+                            </div>
+                            <div class="social_links d-flex justify-content-center"> <a data-cursor="pointer" target="_blank" href="https://www.facebook.com/sohelmalek03" class="facebook"><i class="fa-brands fa-facebook-f"></i></a> <a data-cursor="pointer" target="_blank" href="https://www.instagram.com/sohel_malek03"
+                                    class="instagram"><i class="fa-brands fa-instagram"></i></a> <a data-cursor="pointer" target="_blank" href="https://twitter.com/sohelmalek03" class="twitter"><i class="fa-brands fa-twitter"></i></a> <a data-cursor="pointer"
+                                    target="_blank" href="#!" class="youtube"><i class="fa-brands fa-youtube"></i></a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 order-3 order-lg-3 mt-3 mt-lg-0 page_link">
+                        <h4 class="mb-2 mb-lg-4 text-white ">OPENING HOURS</h4>
+                        <table class="table footer_time_table text-white border-0">
+                            <tbody>
+                                <tr>
+                                    <td>Weekdays</td>
+                                    <td class="footer_time">09 - 19</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td class="footer_time">09 - 12</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td class="footer_time">Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright text-white d-lg-flex justify-content-center text-center justify-content-lg-between py-3 py-lg-4 border-top mt-3 mt-lg-4">
+                <p>Copyright © 2022 Sohel. All rights reserved </p>
+                <p>Website Designed By <a data-cursor="pointer" class="sohel_link_footer" target="_blank" href="http://sohelmalek.ml/">Sohel</a></p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/sohel.js"></script>
+</body>
+
+</html>
